@@ -1,0 +1,27 @@
+@mixin same {
+  background-size: cover;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.thumb {
+  @include same;
+  width: 100%;
+  max-width: 284px;
+  height: 360px;
+}
+
+.ico {
+  position: absolute;
+  font-size: 30px;
+  top: 12px;
+  right: 20px;
+}
+
+.thumbFull {
+  @include same;
+  width: 100%;
+  height: 240px;
+
+}

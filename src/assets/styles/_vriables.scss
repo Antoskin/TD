@@ -1,0 +1,33 @@
+$black: #151515;
+$grey: #393F45;
+$white: #fff;
+$sun: #D19E4D;
+$error-color:#ED2E7E;
+
+$XS: 400px;
+$S: 576px;
+$M: 768px; // 0- 768 - mobile
+$L: 992px; // 768- 992 - tablet
+$XL: 1250px; // 992 - infinity - desktop
+$XXL: 1450px;
+
+$layout-padding: 24px;
+
+$text_s: 14px;
+$text_m: 16px;
+$text_l: 18px;
+
+$container-max-widths: (
+        sm: 576px,
+        md: 720px,
+        lg: 960px,
+        xl: 1200px
+);
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1250px,
+        xxl: 1450px
+);

@@ -1,0 +1,15 @@
+@import './../../../../assets/styles/vriables';
+
+.wrap {
+  display: flex;
+  //grid-template-columns: min-content auto;
+  &>span {
+    margin-right: 10px;
+  }
+}
+
+.reviewBox {
+  font-family: 'regular', sans-serif;
+  margin-bottom: 20px;
+  color: $white;
+}

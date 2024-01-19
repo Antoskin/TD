@@ -1,0 +1,13 @@
+@import '../../assets/styles/vriables';
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 24px;
+  padding: $layout-padding;
+}
+
+.card {
+  cursor: pointer;
+}
+

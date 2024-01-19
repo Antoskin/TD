@@ -1,0 +1,34 @@
+@import '../../assets/styles/vriables';
+
+.wrap {
+  display: grid;
+  grid-template-columns: 284px 2fr;
+  gap: 40px;
+  padding: $layout-padding;
+}
+
+.thumbWrap {
+  margin-bottom: 20px;
+}
+
+.info {
+  display: grid;
+}
+
+.text {
+  display: grid;
+  grid-template-columns: min-content auto;
+  gap: 10px;
+
+  font-size: $text_m;
+  color: $white;
+
+  span {
+    font-family: 'semi-bold', sans-serif;
+    text-transform: capitalize;
+  }
+
+  article {
+    font-family: 'regular', sans-serif;
+  }
+}

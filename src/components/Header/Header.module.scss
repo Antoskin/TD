@@ -1,0 +1,10 @@
+@import '../../assets/styles/_vriables.scss';
+
+.header {
+  border-bottom: 1px solid $grey;
+  padding: $layout-padding;
+
+  i {
+    cursor: pointer;
+  }
+}

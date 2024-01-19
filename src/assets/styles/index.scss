@@ -1,0 +1,45 @@
+@import "fonts";
+@import "ico";
+@import "vriables";
+
+body {
+  margin: 0;
+}
+
+* {
+  background-color: $black;
+}
+
+.text, .text_md, .text_bold, .text_md_bold {
+  color: $white;
+  font-weight: 100;
+  line-height: 150%;
+}
+
+.text, .text_md {
+  font-family: 'regular', sans-serif;
+}
+
+.text_bold, .text_md_bold {
+  font-family: 'semi-bold', sans-serif;
+}
+
+.text {
+  font-size: $text_s
+}
+
+.text_md {
+  font-size: $text_m;
+}
+
+.text_bold {
+  font-size: $text_s;
+}
+
+.text_md_bold {
+  font-size: $text_m;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}

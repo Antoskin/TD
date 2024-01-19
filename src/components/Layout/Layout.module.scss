@@ -1,0 +1,13 @@
+@import '../../assets/styles/vriables';
+
+.layout {
+  border: 1px solid $grey;
+  border-radius: 20px;
+  margin: 14.5px auto;
+  //padding: 24px;
+  max-width: 1112px;
+  width: 100%;
+  overflow: hidden;
+  //background-color: $black;
+  //min-height: 100vh;
+}

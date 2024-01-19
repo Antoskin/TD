@@ -1,0 +1,20 @@
+.card {
+  cursor: pointer;
+}
+
+.cardFull {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.imgWrap {
+
+}
+
+.downloadCount {
+
+}
+
+.desc {
+  display: flex;
+}
